@@ -1,0 +1,10 @@
+task_name: "sexual_default"
+pretrained_model_name_or_path: "CompVis/stable-diffusion-v1-4"
+concept_file_path: "data/concepts/sexual.json"
+prior_cache_path: "data/cache/cache_coco.pt"
+augment:
+  use_augment: True
+  concept_num: 20
+  augment_num: 15
+preserve_scale: 0.01
+token_weight_scale: [0,1,0,0]

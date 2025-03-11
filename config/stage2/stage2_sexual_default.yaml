@@ -1,0 +1,13 @@
+task_name: "sexual_default_stage2"
+pretrained_model_name_or_path: "CompVis/stable-diffusion-v1-4"
+stage1_save_path: "saved_ckpt/stage1/sexual_default"
+neg_input_path: "tmp-data/sexual"
+safe_input_path: "tmp-data/regularization"
+learning_rate: 1e-6
+epochs: 3
+guidance: 15
+preserve_scale: 100
+beta: 1
+margin: 0.01
+max_early_timestep: 25
+regularization_batch_size: 4
