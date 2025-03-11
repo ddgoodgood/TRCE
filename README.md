@@ -29,7 +29,7 @@ The erased model can be found :hugs:[here](https://huggingface.co/ddgoodgood/trc
 
 ## RUN
 
-You can find the pre-cached Coco embeddings :hugs:[here](https://huggingface.co/ddgoodgood/trce-erased-model/tree/main). Please download the `cache` directory and place it in `data/cache`.
+You can find the pre-cached COCO embeddings :hugs:[here](https://huggingface.co/ddgoodgood/trce-erased-model/tree/main). Please download the `cache` directory and place it in `data/cache`.
 
 ### Run stage-1 TRCE
 
